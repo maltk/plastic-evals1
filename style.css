@@ -1,0 +1,37 @@
+html,
+body {
+  height: 100%; }
+
+body {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5; }
+
+.wiz-container {
+  background: #fff;
+  width: 100%;
+  max-width: 600px;
+  padding: 40px 25px;
+  margin: auto; }
+
+.form-wizard {
+  display: none; }
+
+h1 {
+  margin: 1rem 0 2rem; }
+
+.step-1 {
+  text-align: center; }
+  .step-1 input[type="text"] {
+    margin-bottom: 1rem; }
+
+.hide {
+  display: none !important; }
+
+.show {
+  display: block !important; }
+  .show.btn {
+    display: inline-block !important; }
+
+.eval-container {
+  display: none; }

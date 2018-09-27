@@ -1,0 +1,49 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.wiz-container {
+    background: #fff;
+    width: 100%;
+    max-width: 600px;
+    padding: 40px 25px;
+    margin: auto;
+}
+
+
+
+// .step1 .next {
+//     margin-bottom: 15px;
+// }
+
+// .main-menu,
+// .camera,
+// .step2 .next,
+// .step2 .back {
+//     width: 46%;
+// }
+
+// .main-menu,
+// .step2 .back {
+//     margin-right: 3.5%;
+// }
+
+// .camera,
+// .step2 .next {
+//     margin-left: 3.5%;
+// }
+
+// .hide {
+//     display: none !important;
+// }
+
+// .show {
+//     display: block !important;
+// }
