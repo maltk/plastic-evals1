@@ -87,6 +87,7 @@ function step3Next() {
     window.console.log(countClick);
 
     document.querySelector(".next").classList.add("hide");
+    document.querySelector(".next").classList.remove("show");
     document.querySelector(".submit").classList.add("show");
     document.querySelector(".submit").classList.remove("hide");
 
@@ -101,6 +102,13 @@ function step4Back() {
         document.querySelector(".step-4").classList.remove("show");
         document.querySelector(".step-3").classList.remove("hide");
         document.querySelector(".step-4").classList.add("hide");
+
+        //Buttons
+        document.querySelector(".submit").classList.remove("show");
+        document.querySelector(".submit").classList.add("hide");
+        document.querySelector(".next").classList.add("show");
+        document.querySelector(".next").classList.remove("hide");
+
 
         const visibleRB = document.querySelectorAll(".show input[type='radio']");
         for (let i = 0; i < visibleRB.length; i++) {
@@ -166,10 +174,3 @@ document.querySelector(".back").addEventListener("click", function () {
     }
 
 });
-
-
-
-
-
-
-//Hide submit when you go back
