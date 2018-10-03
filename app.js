@@ -10,8 +10,12 @@ function step1Next() {
 
     document.querySelector(".back").classList.add("show");
     document.querySelector(".back").classList.remove("hide");
+
     document.querySelector(".camera").classList.add("hide");
+    document.querySelector(".camera").classList.remove("show");
     document.querySelector(".main-menu").classList.add("hide");
+    document.querySelector(".main-menu").classList.remove("show");
+
 
     document.querySelector(".step-1").classList.add("hide");
     document.querySelector(".step-1").classList.remove("show");
@@ -25,6 +29,12 @@ function step1Next() {
 function step2Back() {
     document.querySelector(".back").classList.add("hide");
     document.querySelector(".back").classList.remove("show");
+
+    document.querySelector(".camera").classList.add("show");
+    document.querySelector(".camera").classList.remove("hide");
+
+    document.querySelector(".main-menu").classList.add("show");
+    document.querySelector(".main-menu").classList.remove("hide");
 
     document.querySelector(".step-1").classList.add("show");
     document.querySelector(".step-2").classList.remove("show");
@@ -156,3 +166,10 @@ document.querySelector(".back").addEventListener("click", function () {
     }
 
 });
+
+
+
+
+
+
+//Hide submit when you go back
