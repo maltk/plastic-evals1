@@ -17,6 +17,17 @@ h1 {
     input[type="text"] {
         margin-bottom: 1rem;
     }
+
+    input[type="number"] {
+        margin-bottom: 1rem;
+
+        &::-webkit-inner-spin-button,
+        &::-webkit-outer-spin-button {
+            -webkit-appearance: none !important;
+            margin: 0 !important;
+            -moz-appearance: textfield !important;
+        }
+    }
 }
 
 

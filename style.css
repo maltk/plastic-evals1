@@ -24,6 +24,12 @@ h1 {
   text-align: center; }
   .step-1 input[type="text"] {
     margin-bottom: 1rem; }
+  .step-1 input[type="number"] {
+    margin-bottom: 1rem; }
+    .step-1 input[type="number"]::-webkit-inner-spin-button, .step-1 input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none !important;
+      margin: 0 !important;
+      -moz-appearance: textfield !important; }
 
 .hide {
   display: none !important; }
